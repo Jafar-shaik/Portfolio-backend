@@ -50,7 +50,7 @@ public class QuoteApiService {
         }
     }
 
-    @Scheduled(cron = "0 0 9 * * SUN")
+
     public void fetchQuoteApiPeriodically(){
         try {
             QuoteApi quoteApi = getQuote();
@@ -64,4 +64,5 @@ public class QuoteApiService {
     public String getLatestQuote(){
         return appCache.getOrDefault("LATEST_QUOTE","No Quote available yet");
     }
+
 }
