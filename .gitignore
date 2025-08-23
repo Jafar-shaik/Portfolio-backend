@@ -5,7 +5,6 @@ target/
 !**/src/test/**/target/
 
 # Exclude local application.properties (use env vars in Koyeb)
-application.properties
 
 ### STS ###
 .apt_generated
