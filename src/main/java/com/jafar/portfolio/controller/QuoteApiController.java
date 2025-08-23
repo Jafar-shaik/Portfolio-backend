@@ -1,8 +1,6 @@
 package com.jafar.portfolio.controller;
 
-import com.jafar.portfolio.entity.QuoteApi;
 import com.jafar.portfolio.service.MyQuoteApiService;
-import com.jafar.portfolio.service.QuoteApiService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
