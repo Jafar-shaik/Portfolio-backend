@@ -3,6 +3,8 @@ target/
 .mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
+
+# Exclude local application.properties (use env vars in Koyeb)
 application.properties
 
 ### STS ###
