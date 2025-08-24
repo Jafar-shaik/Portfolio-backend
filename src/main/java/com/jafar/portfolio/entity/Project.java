@@ -14,11 +14,8 @@ public class Project {
     private String _id;
 
     private String title;
-    private String shortDescription;
-    private String fullDescription;
+    private String description;
     private List<String > technologies;
-    private String image;
-    private String liveUrl;
     private String githubUrl;
 
 }
